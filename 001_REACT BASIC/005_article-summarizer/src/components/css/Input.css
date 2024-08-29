@@ -1,0 +1,21 @@
+.gradient-style {
+  background: #ff0000;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #ff0000 0%,
+    #ff953e 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 18px;
+  border-color: orangered;
+  width: 70%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 20px;
+}
