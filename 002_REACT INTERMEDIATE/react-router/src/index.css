@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+.active {
+  color: white;
+  text-decoration: underline;
+  background-color: #161d29;
+}
